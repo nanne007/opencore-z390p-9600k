@@ -603,6 +603,8 @@
 			<integer>0</integer>
 			<key>Timeout</key>
 			<integer>10</integer>
+			<key>HideSelf</key>
+			<true/>
 		</dict>
 		<key>Debug</key>
 		<dict>
@@ -925,6 +927,8 @@
 			<key>RequestBootVarRouting</key>
 			<true/>
 			<key>UnblockFsConnect</key>
+			<false/>
+			<key>RequestBootVarFallback</key>
 			<false/>
 		</dict>
 		<key>ReservedMemory</key>
