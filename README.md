@@ -12,7 +12,16 @@ Display: Dell P2415Q
 
 ### BIOS Settings
 
-TODO
+- Fast Boot: Disable
+- VT-d: disable
+- CSM: disable
+- SGX: disable
+- Intel Platform Trust: disable
+- CFG Lock: disable
+- VT-x: enable
+- Above 4G decoding: enable
+- EHCI/XHCI Hand-off: enable
+- OS type: Windows 8.1/10 UEFI Mode
 
 下面主要说明，我是怎么构建这个 EFI 的，以及中间遇到的坑。
 
