@@ -40,7 +40,8 @@
 			</dict>
 		</array>
 		<key>Delete</key>
-		<array/>
+		<array>
+		</array>
 		<key>Patch</key>
 		<array>
 			<dict>
@@ -146,7 +147,7 @@
 			<key>EnableSafeModeSlide</key>
 			<true/>
 			<key>EnableWriteUnprotector</key>
-			<true/>
+			<false/>
 			<key>ForceExitBootServices</key>
 			<false/>
 			<key>ProtectMemoryRegions</key>
@@ -165,6 +166,8 @@
 			<false/>
 			<key>SyncRuntimePermissions</key>
 			<true/>
+			<key>ProvideMaxSlide</key>
+			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>DeviceProperties</key>
@@ -554,7 +557,8 @@
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array/>
+		<array>
+		</array>
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleAttributes</key>
@@ -594,6 +598,8 @@
 			<false/>
 			<key>Target</key>
 			<integer>3</integer>
+			<key>SerialInit</key>
+			<false/>
 		</dict>
 		<key>Entries</key>
 		<array>
@@ -620,8 +626,6 @@
 			<true/>
 			<key>AuthRestart</key>
 			<false/>
-			<key>BlacklistAppleUpdate</key>
-			<true/>
 			<key>BootProtect</key>
 			<string>None</string>
 			<key>ExposeSensitiveData</key>
@@ -686,6 +690,8 @@
 				<data>5wMAAA==</data>
 				<key>prev-lang:kbd</key>
 				<string>en-US:0</string>
+				<key>run-efi-updater</key>
+				<string>No</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -767,6 +773,8 @@
 			<integer>0</integer>
 			<key>MinVersion</key>
 			<integer>0</integer>
+			<key>GlobalConnect</key>
+			<false/>
 		</dict>
 		<key>Audio</key>
 		<dict>
@@ -835,6 +843,8 @@
 			<false/>
 			<key>TextRenderer</key>
 			<string>BuiltinGraphics</string>
+			<key>UgaPassThrough</key>
+			<false/>
 		</dict>
 		<key>ProtocolOverrides</key>
 		<dict>
@@ -867,6 +877,8 @@
 			<key>OSInfo</key>
 			<false/>
 			<key>UnicodeCollation</key>
+			<false/>
+			<key>AppleFramebufferInfo</key>
 			<false/>
 		</dict>
 		<key>Quirks</key>
