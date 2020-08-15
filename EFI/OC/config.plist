@@ -685,9 +685,9 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>debug=0x100 keepsyms=1 alcid=1</string>
+				<string>debug=0x100 keepsyms=1 alcid=1 vm_compressor=2</string>
 				<key>csr-active-config</key>
-				<data>5wMAAA==</data>
+				<data>/wcAAA==</data>
 				<key>prev-lang:kbd</key>
 				<string>en-US:0</string>
 				<key>run-efi-updater</key>
