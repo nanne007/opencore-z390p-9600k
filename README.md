@@ -10,6 +10,14 @@ GPU: no external GPU
 
 Display: Dell P2415Q
 
+
+### Update to Big Sur
+
+use opencore 0.8.5.
+
+- [ ] https://dortania.github.io/OpenCore-Post-Install/cosmetic/gui.html#setting-up-boot-chime-with-audiodxe
+
+
 ### BIOS Settings
 
 - Fast Boot: Disable

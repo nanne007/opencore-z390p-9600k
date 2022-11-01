@@ -1,0 +1,94 @@
+─ CPU
+  └── Intel(R) Core(TM) i5-9600K CPU @ 3.70GHz
+      ├── Cores: 6 cores
+      ├── Threads: 6 threads
+      ├── SSE: SSE4.2
+      ├── SSSE3: Supported
+      └── Codename: Coffee Lake
+
+─ Vendor
+  ├── Model: iMac19,1
+  └── Manufacturer: Acidanthera
+
+─ GPU
+  └── Intel UHD Graphics 630
+      ├── Vendor ID: 0x8086
+      ├── Device ID: 0x3e98
+      ├── PCI Path: PciRoot(0x0)/Pci(0x2,0x0)
+      └── ACPI Path: \_SB.PCI0.GFX0
+
+─ Memory
+  ├── VMA42UH-MIC1U22T2 (Part-Number)
+  │   ├── Type: DDR4
+  │   ├── Slot
+  │   │   ├── Bank: BANK 0
+  │   │   └── Channel: ChannelA-DIMM1
+  │   ├── Frequency (MHz): 2666 MHz
+  │   ├── Manufacturer: Asgard
+  │   └── Capacity: 16384MB
+  ├── VMA42UH-MIC1U22T2S (Part-Number)
+  │   ├── Type: DDR4
+  │   ├── Slot
+  │   │   ├── Bank: BANK 1
+  │   │   └── Channel: ChannelA-DIMM2
+  │   ├── Frequency (MHz): 2666 MHz
+  │   ├── Manufacturer: Asgard
+  │   └── Capacity: 16384MB
+  ├── VMA42UH-MIC1U22T2 (Part-Number)
+  │   ├── Type: DDR4
+  │   ├── Slot
+  │   │   ├── Bank: BANK 2
+  │   │   └── Channel: ChannelB-DIMM1
+  │   ├── Frequency (MHz): 2666 MHz
+  │   ├── Manufacturer: Asgard
+  │   └── Capacity: 16384MB
+  └── VMA42UH-MIC1U22T2S (Part-Number)
+      ├── Type: DDR4
+      ├── Slot
+      │   ├── Bank: BANK 3
+      │   └── Channel: ChannelB-DIMM2
+      ├── Frequency (MHz): 2666 MHz
+      ├── Manufacturer: Asgard
+      └── Capacity: 16384MB
+
+─ Network
+  ├── BCM4360 802.11ac Wireless Network Adapter
+  │   ├── Device ID: 0x43a0
+  │   ├── Vendor: 0x14e4
+  │   ├── PCI Path: PciRoot(0x0)/Pci(0x1c,0x6)/Pci(0x0,0x0)
+  │   └── ACPI Path: \_SB.PCI0.RP07.PXSX
+  └── RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller
+      ├── Device ID: 0x8168
+      ├── Vendor: 0x10ec
+      ├── PCI Path: PciRoot(0x0)/Pci(0x1c,0x4)/Pci(0x0,0x0)
+      └── ACPI Path: \_SB.PCI0.RP05.PXSX
+
+─ Audio
+  └── Cannon Lake PCH cAVS
+      ├── Device ID: 0xa348
+      ├── Vendor: 0x8086
+      ├── PCI Path: PciRoot(0x0)/Pci(0x1f,0x3)
+      └── ACPI Path: \_SB.PCI0.HDAS
+
+─ Input
+  ├── Majestouch Convertible 2 (USB)
+  │   ├── Device ID: 0x120d
+  │   └── Vendor: 0x4b4
+  └── USB Receiver (USB)
+      ├── Device ID: 0xc52b
+      └── Vendor: 0x46d
+
+─ Storage
+  ├── Samsung SSD 970 EVO 1TB
+  │   ├── Type: Non-Volatile Memory Express (NVMe)
+  │   ├── Connector: PCI-Express
+  │   └── Location: Internal
+  ├── SAMSUNG MZVL22T0HBLB-00B00
+  │   ├── Type: Non-Volatile Memory Express (NVMe)
+  │   ├── Connector: PCI-Express
+  │   └── Location: Internal
+  └── ST2000DM008-2FR102
+      ├── Type: Hard Disk Drive (HDD)
+      ├── Connector: SATA
+      └── Location: Internal
+
