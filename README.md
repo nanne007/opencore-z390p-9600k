@@ -10,6 +10,9 @@ GPU: no external GPU
 
 Display: Dell P2415Q
 
+### Upgrading to Monterey
+
+- NOTICE: slow boot time of macos. solution: set `SetApfsTrimTimeout` to `0`.
 
 ### Update to Big Sur
 
